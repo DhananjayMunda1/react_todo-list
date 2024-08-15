@@ -1,0 +1,23 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.app{
+    display: grid;  /* this is to display application in grid format */
+    grid-template-rows: 150px auto;   /*to dispaly content in row and first thing is for header section and second one for main body section */
+
+}
+
+.app_main{
+    display: flex; /* to display content in row*/
+    justify-content: space-evenly;/*to space evenly among the sections*/
+    padding: 20px 8%;/* 20px for top and bottom and 8% for left and right*/
+}
+
+.task_column{
+    background-color: tomato;
+    width: 33.33%;
+    margin: 20px;
+}

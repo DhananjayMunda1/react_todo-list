@@ -1,0 +1,28 @@
+.app_header{
+    display: flex;
+    align-items: center; /* set content vertically center*/
+    justify-content: center; /*set content horizontally center*/
+    padding-top: 45px;
+}
+
+.task_input{
+    font-size: 20px;
+    font-weight: 500;
+    background:  #f9f9f9;
+    color: black;
+    border: 1px solid #dfe3e6;
+    border-radius: 5px;
+    padding: 8px 12px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.app_header > form{
+    width: 40%;
+}
+
+.task_from_bottom_line{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
