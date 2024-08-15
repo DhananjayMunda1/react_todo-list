@@ -24,5 +24,4 @@
 .task_from_bottom_line{
     display: flex;
     align-items: center;
-    justify-content: space-between;
 }
