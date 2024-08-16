@@ -15,9 +15,3 @@
     justify-content: space-evenly;/*to space evenly among the sections*/
     padding: 20px 8%;/* 20px for top and bottom and 8% for left and right*/
 }
-
-.task_column{
-    background-color: tomato;
-    width: 33.33%;
-    margin: 20px;
-}

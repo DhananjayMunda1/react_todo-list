@@ -17,6 +17,10 @@
     width: 100%;
 }
 
+.task_input:hover{
+    box-shadow: 3px 3px grey;
+}
+
 .app_header > form{
     width: 40%;
 }
@@ -24,4 +28,38 @@
 .task_from_bottom_line{
     display: flex;
     align-items: center;
+    justify-content: space-between;
+}
+
+
+
+.tag:hover{
+    cursor: pointer;
+    box-shadow: 3px 3px gray;
+}
+
+
+
+.task_status{
+    font-size: 16px;
+    font-weight: 500;
+    border: 1px solid #999;
+    border-radius: 5px;
+    width: 120px;
+    height: 40px;
+    padding:  0 5px;
+}
+
+.task_submit{
+    font-size: 16px;
+    font-weight: 500;
+    margin-left: 10px;
+    height: 40px;
+    width: 120px;
+    padding: 3px 13px;
+    cursor: pointer;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    background-color: #6457f9;
 }

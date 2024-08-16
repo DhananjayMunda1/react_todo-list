@@ -1,5 +1,6 @@
 import React from 'react'
 import "./Task_form.css"
+import Tag from"./Tag.jsx"
 
 function Task_form() {
   return (
@@ -9,10 +10,10 @@ function Task_form() {
                 <input type="text" className='task_input' placeholder='Enter your task'/>
                 <div className="task_from_bottom_line">
                     <div>
-                    <button className='tag'>HTML</button>
-                    <button className='tag'>CSS</button>
-                    <button className='tag'>JAVASCRIPT</button>
-                    <button className='tag'>REACT JS</button>
+                        <Tag tagname="HTML"/>
+                        <Tag tagname="CSS"/>
+                        <Tag tagname="JAVASCRIPT"/>
+                        <Tag tagname="REACTJS"/>
                     </div>
                     
                     <div>

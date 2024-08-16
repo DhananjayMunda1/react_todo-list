@@ -1,0 +1,31 @@
+.tag{
+    font-size: 15px;
+    font-weight: 500;
+    border: 1px solid #dfe3e6;
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+    padding: 2px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+
+ .html-color {
+    background-color: #E7BB96;
+  }
+  
+  .css-color {
+    background-color:  #007872;
+  }
+  
+  .js-color {
+    background-color: #F9D671;
+  }
+  .react-color{
+    background-color: #9BF6FF;
+  }
+  .default-color {
+    background-color: #ccc;
+    color: black;
+  }
